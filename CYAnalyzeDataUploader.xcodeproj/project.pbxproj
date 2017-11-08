@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F391A1F01FB30AC800F1A439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F391A1EF1FB30AC800F1A439 /* AppDelegate.m */; };
+		F391A1F31FB30AC800F1A439 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F391A1F21FB30AC800F1A439 /* ViewController.m */; };
+		F391A1F61FB30AC800F1A439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F391A1F41FB30AC800F1A439 /* Main.storyboard */; };
+		F391A1F81FB30AC800F1A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F391A1F71FB30AC800F1A439 /* Assets.xcassets */; };
+		F391A1FB1FB30AC800F1A439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F391A1F91FB30AC800F1A439 /* LaunchScreen.storyboard */; };
+		F391A1FE1FB30AC800F1A439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F391A1FD1FB30AC800F1A439 /* main.m */; };
+		F391A2081FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F391A2071FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.m */; };
+		F391A2131FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F391A2121FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F391A2041FB30AC800F1A439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F391A1E31FB30AC800F1A439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F391A1EA1FB30AC800F1A439;
+			remoteInfo = CYAnalyzeDataUploader;
+		};
+		F391A20F1FB30AC800F1A439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F391A1E31FB30AC800F1A439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F391A1EA1FB30AC800F1A439;
+			remoteInfo = CYAnalyzeDataUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F391A1EB1FB30AC800F1A439 /* CYAnalyzeDataUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYAnalyzeDataUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F391A1EE1FB30AC800F1A439 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F391A1EF1FB30AC800F1A439 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F391A1F11FB30AC800F1A439 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F391A1F21FB30AC800F1A439 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F391A1F51FB30AC800F1A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F391A1F71FB30AC800F1A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F391A1FA1FB30AC800F1A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F391A1FC1FB30AC800F1A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F391A1FD1FB30AC800F1A439 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F391A2031FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYAnalyzeDataUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F391A2071FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAnalyzeDataUploaderTests.m; sourceTree = "<group>"; };
+		F391A2091FB30AC800F1A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F391A20E1FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYAnalyzeDataUploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F391A2121FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAnalyzeDataUploaderUITests.m; sourceTree = "<group>"; };
+		F391A2141FB30AC800F1A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F391A1E81FB30AC800F1A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A2001FB30AC800F1A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A20B1FB30AC800F1A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F391A1E21FB30AC800F1A439 = {
+			isa = PBXGroup;
+			children = (
+				F391A1ED1FB30AC800F1A439 /* CYAnalyzeDataUploader */,
+				F391A2061FB30AC800F1A439 /* CYAnalyzeDataUploaderTests */,
+				F391A2111FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests */,
+				F391A1EC1FB30AC800F1A439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F391A1EC1FB30AC800F1A439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F391A1EB1FB30AC800F1A439 /* CYAnalyzeDataUploader.app */,
+				F391A2031FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.xctest */,
+				F391A20E1FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F391A1ED1FB30AC800F1A439 /* CYAnalyzeDataUploader */ = {
+			isa = PBXGroup;
+			children = (
+				F391A1EE1FB30AC800F1A439 /* AppDelegate.h */,
+				F391A1EF1FB30AC800F1A439 /* AppDelegate.m */,
+				F391A1F11FB30AC800F1A439 /* ViewController.h */,
+				F391A1F21FB30AC800F1A439 /* ViewController.m */,
+				F391A1F41FB30AC800F1A439 /* Main.storyboard */,
+				F391A1F71FB30AC800F1A439 /* Assets.xcassets */,
+				F391A1F91FB30AC800F1A439 /* LaunchScreen.storyboard */,
+				F391A1FC1FB30AC800F1A439 /* Info.plist */,
+				F391A1FD1FB30AC800F1A439 /* main.m */,
+			);
+			path = CYAnalyzeDataUploader;
+			sourceTree = "<group>";
+		};
+		F391A2061FB30AC800F1A439 /* CYAnalyzeDataUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F391A2071FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.m */,
+				F391A2091FB30AC800F1A439 /* Info.plist */,
+			);
+			path = CYAnalyzeDataUploaderTests;
+			sourceTree = "<group>";
+		};
+		F391A2111FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F391A2121FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.m */,
+				F391A2141FB30AC800F1A439 /* Info.plist */,
+			);
+			path = CYAnalyzeDataUploaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F391A1EA1FB30AC800F1A439 /* CYAnalyzeDataUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F391A2171FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploader" */;
+			buildPhases = (
+				F391A1E71FB30AC800F1A439 /* Sources */,
+				F391A1E81FB30AC800F1A439 /* Frameworks */,
+				F391A1E91FB30AC800F1A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYAnalyzeDataUploader;
+			productName = CYAnalyzeDataUploader;
+			productReference = F391A1EB1FB30AC800F1A439 /* CYAnalyzeDataUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F391A2021FB30AC800F1A439 /* CYAnalyzeDataUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F391A21A1FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploaderTests" */;
+			buildPhases = (
+				F391A1FF1FB30AC800F1A439 /* Sources */,
+				F391A2001FB30AC800F1A439 /* Frameworks */,
+				F391A2011FB30AC800F1A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F391A2051FB30AC800F1A439 /* PBXTargetDependency */,
+			);
+			name = CYAnalyzeDataUploaderTests;
+			productName = CYAnalyzeDataUploaderTests;
+			productReference = F391A2031FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F391A20D1FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F391A21D1FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploaderUITests" */;
+			buildPhases = (
+				F391A20A1FB30AC800F1A439 /* Sources */,
+				F391A20B1FB30AC800F1A439 /* Frameworks */,
+				F391A20C1FB30AC800F1A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F391A2101FB30AC800F1A439 /* PBXTargetDependency */,
+			);
+			name = CYAnalyzeDataUploaderUITests;
+			productName = CYAnalyzeDataUploaderUITests;
+			productReference = F391A20E1FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F391A1E31FB30AC800F1A439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = chunyu;
+				TargetAttributes = {
+					F391A1EA1FB30AC800F1A439 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F391A2021FB30AC800F1A439 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F391A1EA1FB30AC800F1A439;
+					};
+					F391A20D1FB30AC800F1A439 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F391A1EA1FB30AC800F1A439;
+					};
+				};
+			};
+			buildConfigurationList = F391A1E61FB30AC800F1A439 /* Build configuration list for PBXProject "CYAnalyzeDataUploader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F391A1E21FB30AC800F1A439;
+			productRefGroup = F391A1EC1FB30AC800F1A439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F391A1EA1FB30AC800F1A439 /* CYAnalyzeDataUploader */,
+				F391A2021FB30AC800F1A439 /* CYAnalyzeDataUploaderTests */,
+				F391A20D1FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F391A1E91FB30AC800F1A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F391A1FB1FB30AC800F1A439 /* LaunchScreen.storyboard in Resources */,
+				F391A1F81FB30AC800F1A439 /* Assets.xcassets in Resources */,
+				F391A1F61FB30AC800F1A439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A2011FB30AC800F1A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A20C1FB30AC800F1A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F391A1E71FB30AC800F1A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F391A1F31FB30AC800F1A439 /* ViewController.m in Sources */,
+				F391A1FE1FB30AC800F1A439 /* main.m in Sources */,
+				F391A1F01FB30AC800F1A439 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A1FF1FB30AC800F1A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F391A2081FB30AC800F1A439 /* CYAnalyzeDataUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F391A20A1FB30AC800F1A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F391A2131FB30AC800F1A439 /* CYAnalyzeDataUploaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F391A2051FB30AC800F1A439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F391A1EA1FB30AC800F1A439 /* CYAnalyzeDataUploader */;
+			targetProxy = F391A2041FB30AC800F1A439 /* PBXContainerItemProxy */;
+		};
+		F391A2101FB30AC800F1A439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F391A1EA1FB30AC800F1A439 /* CYAnalyzeDataUploader */;
+			targetProxy = F391A20F1FB30AC800F1A439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F391A1F41FB30AC800F1A439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F391A1F51FB30AC800F1A439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F391A1F91FB30AC800F1A439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F391A1FA1FB30AC800F1A439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F391A2151FB30AC800F1A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F391A2161FB30AC800F1A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F391A2181FB30AC800F1A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F391A2191FB30AC800F1A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F391A21B1FB30AC800F1A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYAnalyzeDataUploader.app/CYAnalyzeDataUploader";
+			};
+			name = Debug;
+		};
+		F391A21C1FB30AC800F1A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYAnalyzeDataUploader.app/CYAnalyzeDataUploader";
+			};
+			name = Release;
+		};
+		F391A21E1FB30AC800F1A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYAnalyzeDataUploader;
+			};
+			name = Debug;
+		};
+		F391A21F1FB30AC800F1A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRMH84M93J;
+				INFOPLIST_FILE = CYAnalyzeDataUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYAnalyzeDataUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYAnalyzeDataUploader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F391A1E61FB30AC800F1A439 /* Build configuration list for PBXProject "CYAnalyzeDataUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F391A2151FB30AC800F1A439 /* Debug */,
+				F391A2161FB30AC800F1A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F391A2171FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F391A2181FB30AC800F1A439 /* Debug */,
+				F391A2191FB30AC800F1A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F391A21A1FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F391A21B1FB30AC800F1A439 /* Debug */,
+				F391A21C1FB30AC800F1A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F391A21D1FB30AC800F1A439 /* Build configuration list for PBXNativeTarget "CYAnalyzeDataUploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F391A21E1FB30AC800F1A439 /* Debug */,
+				F391A21F1FB30AC800F1A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F391A1E31FB30AC800F1A439 /* Project object */;
+}
