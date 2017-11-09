@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CYUrlAnalyseManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[CYUrlAnalyseManager defaultManager] registAnalyse];
+    [CYUrlAnalyseManager defaultManager].storageType = CYUrlStorageTypeAutoDB;
+    
     return YES;
 }
 

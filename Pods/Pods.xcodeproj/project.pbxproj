@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0042F412BCF42C6EF413178732DBA4CF /* Pods-CYAnalyzeDataUploaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36BB01CBD97DC1814AC5E1ED38E17F /* Pods-CYAnalyzeDataUploaderTests-dummy.m */; };
+		08920999CB2FD5E8DFAFFA54301CCAAF /* CYUrlAnalyseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C12557F5A307C8ACC7D052BB89EBEF /* CYUrlAnalyseListViewController.m */; };
+		0903A66B7CADBF0B957C4542560EA522 /* CYUrlAnalyseListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A7C77D91E70B3B425E6F5725B2B2BA /* CYUrlAnalyseListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		096BEADBEFEC49806284E1C6EA7079EB /* CYGAnalyseTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE5BBCC06BA5FC1DCD49ADC62E2FDC /* CYGAnalyseTool-dummy.m */; };
+		09B93C3FD1557386FD8CFAB331FBB2FA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 003B46C23B65AC5F843EF4E6334AA982 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCA38E739FB42C24FA87B5CEFC9AC61 /* CYUrlAnalyseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A2A9F25469465EADA7F57D2B77E744 /* CYUrlAnalyseProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10079698532D5343563FF394F6023ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12D9FC47BC38AE5ED112DC0FAA93469F /* Pods-CYAnalyzeDataUploaderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD146C84412D676FDAE3334A63ECC5FF /* Pods-CYAnalyzeDataUploaderUITests-dummy.m */; };
+		15E76E29260DC2FE122683BE1AD132CC /* CYUrlSessionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 607347F8154D14B18E58D2A99C2CD0DC /* CYUrlSessionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203253A7214A4A9CF2AC8173284FB288 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8110C74099FEB7F78C151FCE86351F /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29363415A24353F51AEF1860AC11CA65 /* CYUrlAnalyseDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = E064CE54C7DB4EF500C9D427619F5050 /* CYUrlAnalyseDemux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0FFEEE21E7F51186962269F04AB27E /* CYUrlSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BD8AAF45D9F06C58C2640005FF97FE /* CYUrlSessionConfiguration.m */; };
+		2F5D2ACFA71AF48A8FE2973AF3CB0657 /* CYUrlAnalyseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4463FDD57A11CF119F254F88B57B0 /* CYUrlAnalyseModel.m */; };
+		3150C22A4CDC70F18B75C6663345571F /* CYGToolDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BD97014D90097760097D26A0F01BC180 /* CYGToolDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DDE8EBCC0976E06B06B53E70E631FA /* CYUrlBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1696DF927B8345C1C4D114CB549367 /* CYUrlBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384CC7F3ABC30D9CEC140625A010455E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9675C50C488BCE6DA4486F1167541D7B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		492DA0EE3BF0A9B3E18A1C95D0505BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4BC41D948818CFFA3A13FF1AC8EAB22A /* CYUrlDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F6AC73E17B37C008C9D3BF4D4C4230 /* CYUrlDBManager.m */; };
+		528004D98CF20C194F5B5E6DE56EE32C /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DE25BBF7074D44C9E3BC2912BAEC38 /* FMDB-dummy.m */; };
+		5B363ED3B770BD541B8FF7F3A7C3FF4B /* CYUrlAnalyseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FE1D37270B83932DDA42E90267A47 /* CYUrlAnalyseListCell.m */; };
+		71404B612B4DB7B699B97333BDEDF07A /* CYUrlAnalyseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0C0B2FA4B29268B8BFCE513F02F44 /* CYUrlAnalyseManager.m */; };
+		76D12A423E3466ACD68158FBDAF97676 /* CYNetworkFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93A9207C7F0D2A1D8328FCDA586173 /* CYNetworkFlow.m */; };
+		8ADB6C568FF02A368351A0C451E69FC5 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D6166F48473D083FA487B04E6FC113 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		983A76547504EAA5E8ECC734BFD50C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		993613BC7A6FA7CC2FFF3B7A451DAACF /* CYUrlDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B2EC3B805C81E49DC836852D452851 /* CYUrlDBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B656EACB5FDA9F5D93706C83853D3DE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF9176CB43C99A0C824C0DFE1AC0AB /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A20A07A81A6AD5077FC9B920F46A52D4 /* CYUrlAnalyseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15B7DE1FA0F77B668EA5C4DE419A0A2 /* CYUrlAnalyseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5069F2C96813871B61B2E13E84A1BCC /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8678C82FF372EE610F4B4F137AE772D8 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58116F4E03EC603A870737D1317B39F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DB15ED44BF3A22CB80C9B82F246949 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6F0CC421508E875C1349C0D638612B /* CYUrlArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA86E139D4E5F1A61FAC010960044E /* CYUrlArchiveManager.m */; };
+		AF7FD4A5FF7B9356D636B6AF7C1B50DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CAD01565E4C41E89D0C8731DCB008F00 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA8FD101377F623E966DF69E0AE7AA4 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDC04D3F4C29DD20A35EDAC1CA00A5C1 /* CYUrlAnalyseProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C3725A432A6EFF6A268C342000368 /* CYUrlAnalyseProtocol.m */; };
+		D12CAB46FFD146A3ECCADD81AAFD46FB /* CYUrlContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B1B2DCA3A2C2A75C4C39EC6203B29 /* CYUrlContentViewController.m */; };
+		D2F47D2881DD914A0C4E187CB699F1DE /* CYUrlContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C428565458C11D4EC331215CC89B037 /* CYUrlContentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C19C29B3078637E3D6B2EBF4FF14F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7BF376889E00CC9964AF0262A2D7162 /* Pods-CYAnalyzeDataUploader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C19DA289CC7DB0701333D6AF04F7D43E /* Pods-CYAnalyzeDataUploader-dummy.m */; };
+		D8C07243609966530CAA67C514456A35 /* CYUrlAnalyseListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1125054BAC6CDDFF3F4CC53588481B90 /* CYUrlAnalyseListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC066F81147005837262C7A224B4EAD6 /* CYUrlAnalyseDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A724183DF2EE9DA8A55A3395E1028B /* CYUrlAnalyseDemux.m */; };
+		DC7072F900063545D3D42E49594066C9 /* CYUrlAnalyseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 206EF3B617C38D8C7C7E455DE19D5A5C /* CYUrlAnalyseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2411F3E2B5AF95A0F57118A6BE5340 /* CYUrlBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987843A2476F9E340E99792F8318664D /* CYUrlBaseViewController.m */; };
+		E57128698FB45CC1AC5478A1FCC4AAD3 /* CYNetworkFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 926D3587059DF712708D18D05CB7C6B5 /* CYNetworkFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88A8EFF3D793CD250D25E43E33FB2BB /* CYUrlAnalyzeDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D83817468F4E1599DCEA2C8E95F19 /* CYUrlAnalyzeDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3A30425C99F9B13DFE101DB1A9FD82 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438625DF1F72D9598A87F95438EF85F /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7F7197116B96EBA82357BDDA9E1BBE0 /* CYUrlArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDC4B9E55AEC7E328B9015FC1C0BEB1 /* CYUrlArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD4A6AEF156B570F04FD1FFECB332F3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D66ED4362F3CF241D22CDDC2D89A65BA /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FBEDAC8DF6E76B53F600FB9057BED32F /* CYUrlAnalyzeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDB5B8BF93C6686A0E6B806A65EFA49 /* CYUrlAnalyzeDetailViewController.m */; };
+		FE80A7316BCB76D5B58AF95C66A2331A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 342FC27879A063345CFAADFE57385491 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C8CC8A57375F2A4BDAD7BD62DABA2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEB008A71D9F2524455FD7888BC0B33;
+			remoteInfo = FMDB;
+		};
+		1E6018F36FB337CB04B7903DAB2FDF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEB008A71D9F2524455FD7888BC0B33;
+			remoteInfo = FMDB;
+		};
+		65E895D617FBDFE9D33349EAEE5EB7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C9B5B15D87ABBD6945D672D77A2850;
+			remoteInfo = CYGAnalyseTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003B46C23B65AC5F843EF4E6334AA982 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		0694F19E3A2B3F341B6EAE8CBA71D9CF /* Pods-CYAnalyzeDataUploaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		06B2EC3B805C81E49DC836852D452851 /* CYUrlDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlDBManager.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlDBManager.h; sourceTree = "<group>"; };
+		0AC3A85EEC4D0E8AC1AA20973E0A049E /* Pods-CYAnalyzeDataUploader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploader-resources.sh"; sourceTree = "<group>"; };
+		0C31E3FEA5F9F81444D9386246B382BC /* Pods-CYAnalyzeDataUploaderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYAnalyzeDataUploaderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FDC4B9E55AEC7E328B9015FC1C0BEB1 /* CYUrlArchiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlArchiveManager.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlArchiveManager.h; sourceTree = "<group>"; };
+		110E1C46DE2F744E593929BE178E8F0D /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1125054BAC6CDDFF3F4CC53588481B90 /* CYUrlAnalyseListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseListCell.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseListCell.h; sourceTree = "<group>"; };
+		15DB15ED44BF3A22CB80C9B82F246949 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		186C3725A432A6EFF6A268C342000368 /* CYUrlAnalyseProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseProtocol.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseProtocol.m; sourceTree = "<group>"; };
+		19A2A9F25469465EADA7F57D2B77E744 /* CYUrlAnalyseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseProtocol.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseProtocol.h; sourceTree = "<group>"; };
+		1FAE5BBCC06BA5FC1DCD49ADC62E2FDC /* CYGAnalyseTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYGAnalyseTool-dummy.m"; sourceTree = "<group>"; };
+		206EF3B617C38D8C7C7E455DE19D5A5C /* CYUrlAnalyseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseManager.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseManager.h; sourceTree = "<group>"; };
+		2438625DF1F72D9598A87F95438EF85F /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		293DD78C8B8F79FBEDC080223F4BEF0C /* Pods-CYAnalyzeDataUploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DFA86E139D4E5F1A61FAC010960044E /* CYUrlArchiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlArchiveManager.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlArchiveManager.m; sourceTree = "<group>"; };
+		2F94CE9B37FFD09E0630B0D7886618AC /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		311C61EF96929EAEB6B19B423FCF1647 /* Pods-CYAnalyzeDataUploaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31BF9176CB43C99A0C824C0DFE1AC0AB /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		342FC27879A063345CFAADFE57385491 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		366917F3BA3689F5E0B3C8D57824922A /* Pods-CYAnalyzeDataUploaderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploaderUITests-resources.sh"; sourceTree = "<group>"; };
+		39A724183DF2EE9DA8A55A3395E1028B /* CYUrlAnalyseDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseDemux.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseDemux.m; sourceTree = "<group>"; };
+		4000C7919C31146767C650D24399FBB1 /* libPods-CYAnalyzeDataUploaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYAnalyzeDataUploaderUITests.a"; path = "libPods-CYAnalyzeDataUploaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C428565458C11D4EC331215CC89B037 /* CYUrlContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlContentViewController.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlContentViewController.h; sourceTree = "<group>"; };
+		571DD0D320A95DDC7DB6CFAB17C9B12E /* Pods-CYAnalyzeDataUploaderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploaderTests-frameworks.sh"; sourceTree = "<group>"; };
+		57AB72493DE145A4A6085A7DDC607932 /* Pods-CYAnalyzeDataUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploader.release.xcconfig"; sourceTree = "<group>"; };
+		58A7C77D91E70B3B425E6F5725B2B2BA /* CYUrlAnalyseListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseListViewController.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseListViewController.h; sourceTree = "<group>"; };
+		597FE1D37270B83932DDA42E90267A47 /* CYUrlAnalyseListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseListCell.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseListCell.m; sourceTree = "<group>"; };
+		59F859689184A451DEA5B495789B08F9 /* Pods-CYAnalyzeDataUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploader.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA8FD101377F623E966DF69E0AE7AA4 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		60581F8D64D3D3A3F742447963BA152C /* libPods-CYAnalyzeDataUploaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYAnalyzeDataUploaderTests.a"; path = "libPods-CYAnalyzeDataUploaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607347F8154D14B18E58D2A99C2CD0DC /* CYUrlSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlSessionConfiguration.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlSessionConfiguration.h; sourceTree = "<group>"; };
+		63C12557F5A307C8ACC7D052BB89EBEF /* CYUrlAnalyseListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseListViewController.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseListViewController.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69D4463FDD57A11CF119F254F88B57B0 /* CYUrlAnalyseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseModel.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseModel.m; sourceTree = "<group>"; };
+		73DE25BBF7074D44C9E3BC2912BAEC38 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		86174F143E412430A49CA61819AAFA24 /* Pods-CYAnalyzeDataUploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYAnalyzeDataUploaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		864500253178C48FD70692FCEBE83A21 /* Pods-CYAnalyzeDataUploaderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploaderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8678C82FF372EE610F4B4F137AE772D8 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		8BE2A917D9FC64BE20F422583CE218C1 /* Pods-CYAnalyzeDataUploaderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYAnalyzeDataUploaderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F48CEA9290B2F9F607265E1F9CCB0D4 /* Pods-CYAnalyzeDataUploader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYAnalyzeDataUploader-acknowledgements.plist"; sourceTree = "<group>"; };
+		926D3587059DF712708D18D05CB7C6B5 /* CYNetworkFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYNetworkFlow.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYNetworkFlow.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9675C50C488BCE6DA4486F1167541D7B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		981B1B2DCA3A2C2A75C4C39EC6203B29 /* CYUrlContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlContentViewController.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlContentViewController.m; sourceTree = "<group>"; };
+		983E377F97F2CB0788E00DF2BDD45B7F /* CYGAnalyseTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYGAnalyseTool.xcconfig; sourceTree = "<group>"; };
+		987843A2476F9E340E99792F8318664D /* CYUrlBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlBaseViewController.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlBaseViewController.m; sourceTree = "<group>"; };
+		9A16523B16521A9DB9603AA27EA255C2 /* CYGAnalyseTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYGAnalyseTool-prefix.pch"; sourceTree = "<group>"; };
+		9AA0C0B2FA4B29268B8BFCE513F02F44 /* CYUrlAnalyseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyseManager.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseManager.m; sourceTree = "<group>"; };
+		A4E736179E9691916C2965AC08F953CC /* Pods-CYAnalyzeDataUploader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYAnalyzeDataUploader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A610FBCE60F448E2A940D76CEEA8502A /* Pods-CYAnalyzeDataUploaderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploaderTests-resources.sh"; sourceTree = "<group>"; };
+		BC4FCD8D89DCB37714594CEA6A4BB391 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		BD97014D90097760097D26A0F01BC180 /* CYGToolDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYGToolDefines.h; path = CYGAnalyseTool/Tools/CYGToolDefines.h; sourceTree = "<group>"; };
+		C189E948E9E0922325385995C1E7AF22 /* Pods-CYAnalyzeDataUploader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYAnalyzeDataUploader-frameworks.sh"; sourceTree = "<group>"; };
+		C19DA289CC7DB0701333D6AF04F7D43E /* Pods-CYAnalyzeDataUploader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYAnalyzeDataUploader-dummy.m"; sourceTree = "<group>"; };
+		CAD2E5155BE2A00C9FA03EB798D38974 /* libPods-CYAnalyzeDataUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYAnalyzeDataUploader.a"; path = "libPods-CYAnalyzeDataUploader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1696DF927B8345C1C4D114CB549367 /* CYUrlBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlBaseViewController.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlBaseViewController.h; sourceTree = "<group>"; };
+		CDC842BB932E6C56314125FBF73BE6BE /* libCYGAnalyseTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCYGAnalyseTool.a; path = libCYGAnalyseTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BD8AAF45D9F06C58C2640005FF97FE /* CYUrlSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlSessionConfiguration.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlSessionConfiguration.m; sourceTree = "<group>"; };
+		D66ED4362F3CF241D22CDDC2D89A65BA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D7D6166F48473D083FA487B04E6FC113 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DA36BB01CBD97DC1814AC5E1ED38E17F /* Pods-CYAnalyzeDataUploaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYAnalyzeDataUploaderTests-dummy.m"; sourceTree = "<group>"; };
+		DD146C84412D676FDAE3334A63ECC5FF /* Pods-CYAnalyzeDataUploaderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYAnalyzeDataUploaderUITests-dummy.m"; sourceTree = "<group>"; };
+		DDDB5B8BF93C6686A0E6B806A65EFA49 /* CYUrlAnalyzeDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlAnalyzeDetailViewController.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyzeDetailViewController.m; sourceTree = "<group>"; };
+		DE8110C74099FEB7F78C151FCE86351F /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		DF790B339941C8E33226FAD02634F1FE /* Pods-CYAnalyzeDataUploaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYAnalyzeDataUploaderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E064CE54C7DB4EF500C9D427619F5050 /* CYUrlAnalyseDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseDemux.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseDemux.h; sourceTree = "<group>"; };
+		E15B7DE1FA0F77B668EA5C4DE419A0A2 /* CYUrlAnalyseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyseModel.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseModel.h; sourceTree = "<group>"; };
+		E1F6AC73E17B37C008C9D3BF4D4C4230 /* CYUrlDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUrlDBManager.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlDBManager.m; sourceTree = "<group>"; };
+		ED247269AA516B7DA5ED5E494A52EEA3 /* Pods-CYAnalyzeDataUploaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYAnalyzeDataUploaderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD6D83817468F4E1599DCEA2C8E95F19 /* CYUrlAnalyzeDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUrlAnalyzeDetailViewController.h; path = CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyzeDetailViewController.h; sourceTree = "<group>"; };
+		FE93A9207C7F0D2A1D8328FCDA586173 /* CYNetworkFlow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYNetworkFlow.m; path = CYGAnalyseTool/Tools/UrlAnalyse/CYNetworkFlow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB51C6B716B9D30AA99294F18905EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C19C29B3078637E3D6B2EBF4FF14F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE4B1580756F0DF66AE3443167A6B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492DA0EE3BF0A9B3E18A1C95D0505BBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369901643ADF7D1016E54302AEDF8945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10079698532D5343563FF394F6023ACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1B79BD57D879BAB0BE26288627A036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7FD4A5FF7B9356D636B6AF7C1B50DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9704C841AECCB6C08D7844E8EF5E076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983A76547504EAA5E8ECC734BFD50C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155ACAE7E8331B7F991657378BADAF62 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC23458B9ACA127FE39CFD77A871FD /* standard */,
+				874E8B28502696BF34E60810D9A8D1BC /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		178B6B978B512D35FA31468E7E97C967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC842BB932E6C56314125FBF73BE6BE /* libCYGAnalyseTool.a */,
+				110E1C46DE2F744E593929BE178E8F0D /* libFMDB.a */,
+				CAD2E5155BE2A00C9FA03EB798D38974 /* libPods-CYAnalyzeDataUploader.a */,
+				60581F8D64D3D3A3F742447963BA152C /* libPods-CYAnalyzeDataUploaderTests.a */,
+				4000C7919C31146767C650D24399FBB1 /* libPods-CYAnalyzeDataUploaderUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365691781E435BBD22C0DDA1D13B2F92 /* Pods-CYAnalyzeDataUploader */ = {
+			isa = PBXGroup;
+			children = (
+				A4E736179E9691916C2965AC08F953CC /* Pods-CYAnalyzeDataUploader-acknowledgements.markdown */,
+				8F48CEA9290B2F9F607265E1F9CCB0D4 /* Pods-CYAnalyzeDataUploader-acknowledgements.plist */,
+				C19DA289CC7DB0701333D6AF04F7D43E /* Pods-CYAnalyzeDataUploader-dummy.m */,
+				C189E948E9E0922325385995C1E7AF22 /* Pods-CYAnalyzeDataUploader-frameworks.sh */,
+				0AC3A85EEC4D0E8AC1AA20973E0A049E /* Pods-CYAnalyzeDataUploader-resources.sh */,
+				59F859689184A451DEA5B495789B08F9 /* Pods-CYAnalyzeDataUploader.debug.xcconfig */,
+				57AB72493DE145A4A6085A7DDC607932 /* Pods-CYAnalyzeDataUploader.release.xcconfig */,
+			);
+			name = "Pods-CYAnalyzeDataUploader";
+			path = "Target Support Files/Pods-CYAnalyzeDataUploader";
+			sourceTree = "<group>";
+		};
+		38BCF7EFEA09EB4847018775049C1A40 /* Pods-CYAnalyzeDataUploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE2A917D9FC64BE20F422583CE218C1 /* Pods-CYAnalyzeDataUploaderUITests-acknowledgements.markdown */,
+				0C31E3FEA5F9F81444D9386246B382BC /* Pods-CYAnalyzeDataUploaderUITests-acknowledgements.plist */,
+				DD146C84412D676FDAE3334A63ECC5FF /* Pods-CYAnalyzeDataUploaderUITests-dummy.m */,
+				864500253178C48FD70692FCEBE83A21 /* Pods-CYAnalyzeDataUploaderUITests-frameworks.sh */,
+				366917F3BA3689F5E0B3C8D57824922A /* Pods-CYAnalyzeDataUploaderUITests-resources.sh */,
+				0694F19E3A2B3F341B6EAE8CBA71D9CF /* Pods-CYAnalyzeDataUploaderUITests.debug.xcconfig */,
+				311C61EF96929EAEB6B19B423FCF1647 /* Pods-CYAnalyzeDataUploaderUITests.release.xcconfig */,
+			);
+			name = "Pods-CYAnalyzeDataUploaderUITests";
+			path = "Target Support Files/Pods-CYAnalyzeDataUploaderUITests";
+			sourceTree = "<group>";
+		};
+		5C3EF4E446BA42C42BAB3C1663ADF8B7 /* CYGAnalyseTool */ = {
+			isa = PBXGroup;
+			children = (
+				BD97014D90097760097D26A0F01BC180 /* CYGToolDefines.h */,
+				926D3587059DF712708D18D05CB7C6B5 /* CYNetworkFlow.h */,
+				FE93A9207C7F0D2A1D8328FCDA586173 /* CYNetworkFlow.m */,
+				E064CE54C7DB4EF500C9D427619F5050 /* CYUrlAnalyseDemux.h */,
+				39A724183DF2EE9DA8A55A3395E1028B /* CYUrlAnalyseDemux.m */,
+				1125054BAC6CDDFF3F4CC53588481B90 /* CYUrlAnalyseListCell.h */,
+				597FE1D37270B83932DDA42E90267A47 /* CYUrlAnalyseListCell.m */,
+				58A7C77D91E70B3B425E6F5725B2B2BA /* CYUrlAnalyseListViewController.h */,
+				63C12557F5A307C8ACC7D052BB89EBEF /* CYUrlAnalyseListViewController.m */,
+				206EF3B617C38D8C7C7E455DE19D5A5C /* CYUrlAnalyseManager.h */,
+				9AA0C0B2FA4B29268B8BFCE513F02F44 /* CYUrlAnalyseManager.m */,
+				E15B7DE1FA0F77B668EA5C4DE419A0A2 /* CYUrlAnalyseModel.h */,
+				69D4463FDD57A11CF119F254F88B57B0 /* CYUrlAnalyseModel.m */,
+				19A2A9F25469465EADA7F57D2B77E744 /* CYUrlAnalyseProtocol.h */,
+				186C3725A432A6EFF6A268C342000368 /* CYUrlAnalyseProtocol.m */,
+				FD6D83817468F4E1599DCEA2C8E95F19 /* CYUrlAnalyzeDetailViewController.h */,
+				DDDB5B8BF93C6686A0E6B806A65EFA49 /* CYUrlAnalyzeDetailViewController.m */,
+				0FDC4B9E55AEC7E328B9015FC1C0BEB1 /* CYUrlArchiveManager.h */,
+				2DFA86E139D4E5F1A61FAC010960044E /* CYUrlArchiveManager.m */,
+				CC1696DF927B8345C1C4D114CB549367 /* CYUrlBaseViewController.h */,
+				987843A2476F9E340E99792F8318664D /* CYUrlBaseViewController.m */,
+				4C428565458C11D4EC331215CC89B037 /* CYUrlContentViewController.h */,
+				981B1B2DCA3A2C2A75C4C39EC6203B29 /* CYUrlContentViewController.m */,
+				06B2EC3B805C81E49DC836852D452851 /* CYUrlDBManager.h */,
+				E1F6AC73E17B37C008C9D3BF4D4C4230 /* CYUrlDBManager.m */,
+				607347F8154D14B18E58D2A99C2CD0DC /* CYUrlSessionConfiguration.h */,
+				D3BD8AAF45D9F06C58C2640005FF97FE /* CYUrlSessionConfiguration.m */,
+				635ED32BAF4DAFEBF06ED91733E1A478 /* Support Files */,
+			);
+			name = CYGAnalyseTool;
+			path = CYGAnalyseTool;
+			sourceTree = "<group>";
+		};
+		635ED32BAF4DAFEBF06ED91733E1A478 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				983E377F97F2CB0788E00DF2BDD45B7F /* CYGAnalyseTool.xcconfig */,
+				1FAE5BBCC06BA5FC1DCD49ADC62E2FDC /* CYGAnalyseTool-dummy.m */,
+				9A16523B16521A9DB9603AA27EA255C2 /* CYGAnalyseTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYGAnalyseTool";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D5DA0229C4D44D4C0D0ADB540CB95327 /* Pods */,
+				178B6B978B512D35FA31468E7E97C967 /* Products */,
+				E6A9FFEDD5DDF44F5AC93D0C3BDE0C50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		874E8B28502696BF34E60810D9A8D1BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F94CE9B37FFD09E0630B0D7886618AC /* FMDB.xcconfig */,
+				73DE25BBF7074D44C9E3BC2912BAEC38 /* FMDB-dummy.m */,
+				BC4FCD8D89DCB37714594CEA6A4BB391 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		8ACC23458B9ACA127FE39CFD77A871FD /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				15DB15ED44BF3A22CB80C9B82F246949 /* FMDatabase.h */,
+				5DA8FD101377F623E966DF69E0AE7AA4 /* FMDatabase.m */,
+				D7D6166F48473D083FA487B04E6FC113 /* FMDatabaseAdditions.h */,
+				9675C50C488BCE6DA4486F1167541D7B /* FMDatabaseAdditions.m */,
+				8678C82FF372EE610F4B4F137AE772D8 /* FMDatabasePool.h */,
+				31BF9176CB43C99A0C824C0DFE1AC0AB /* FMDatabasePool.m */,
+				342FC27879A063345CFAADFE57385491 /* FMDatabaseQueue.h */,
+				D66ED4362F3CF241D22CDDC2D89A65BA /* FMDatabaseQueue.m */,
+				003B46C23B65AC5F843EF4E6334AA982 /* FMDB.h */,
+				DE8110C74099FEB7F78C151FCE86351F /* FMResultSet.h */,
+				2438625DF1F72D9598A87F95438EF85F /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		8BA867802D7DEDA705922A0B6644FEA5 /* Pods-CYAnalyzeDataUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED247269AA516B7DA5ED5E494A52EEA3 /* Pods-CYAnalyzeDataUploaderTests-acknowledgements.markdown */,
+				DF790B339941C8E33226FAD02634F1FE /* Pods-CYAnalyzeDataUploaderTests-acknowledgements.plist */,
+				DA36BB01CBD97DC1814AC5E1ED38E17F /* Pods-CYAnalyzeDataUploaderTests-dummy.m */,
+				571DD0D320A95DDC7DB6CFAB17C9B12E /* Pods-CYAnalyzeDataUploaderTests-frameworks.sh */,
+				A610FBCE60F448E2A940D76CEEA8502A /* Pods-CYAnalyzeDataUploaderTests-resources.sh */,
+				293DD78C8B8F79FBEDC080223F4BEF0C /* Pods-CYAnalyzeDataUploaderTests.debug.xcconfig */,
+				86174F143E412430A49CA61819AAFA24 /* Pods-CYAnalyzeDataUploaderTests.release.xcconfig */,
+			);
+			name = "Pods-CYAnalyzeDataUploaderTests";
+			path = "Target Support Files/Pods-CYAnalyzeDataUploaderTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5DA0229C4D44D4C0D0ADB540CB95327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C3EF4E446BA42C42BAB3C1663ADF8B7 /* CYGAnalyseTool */,
+				155ACAE7E8331B7F991657378BADAF62 /* FMDB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6A9FFEDD5DDF44F5AC93D0C3BDE0C50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				365691781E435BBD22C0DDA1D13B2F92 /* Pods-CYAnalyzeDataUploader */,
+				8BA867802D7DEDA705922A0B6644FEA5 /* Pods-CYAnalyzeDataUploaderTests */,
+				38BCF7EFEA09EB4847018775049C1A40 /* Pods-CYAnalyzeDataUploaderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81B8DF7DCF1818BC34B279D762255861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58116F4E03EC603A870737D1317B39F /* FMDatabase.h in Headers */,
+				8ADB6C568FF02A368351A0C451E69FC5 /* FMDatabaseAdditions.h in Headers */,
+				A5069F2C96813871B61B2E13E84A1BCC /* FMDatabasePool.h in Headers */,
+				FE80A7316BCB76D5B58AF95C66A2331A /* FMDatabaseQueue.h in Headers */,
+				09B93C3FD1557386FD8CFAB331FBB2FA /* FMDB.h in Headers */,
+				203253A7214A4A9CF2AC8173284FB288 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7DAAA921071C4B49EDCB2D7C4432CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150C22A4CDC70F18B75C6663345571F /* CYGToolDefines.h in Headers */,
+				E57128698FB45CC1AC5478A1FCC4AAD3 /* CYNetworkFlow.h in Headers */,
+				29363415A24353F51AEF1860AC11CA65 /* CYUrlAnalyseDemux.h in Headers */,
+				D8C07243609966530CAA67C514456A35 /* CYUrlAnalyseListCell.h in Headers */,
+				0903A66B7CADBF0B957C4542560EA522 /* CYUrlAnalyseListViewController.h in Headers */,
+				DC7072F900063545D3D42E49594066C9 /* CYUrlAnalyseManager.h in Headers */,
+				A20A07A81A6AD5077FC9B920F46A52D4 /* CYUrlAnalyseModel.h in Headers */,
+				0CCA38E739FB42C24FA87B5CEFC9AC61 /* CYUrlAnalyseProtocol.h in Headers */,
+				E88A8EFF3D793CD250D25E43E33FB2BB /* CYUrlAnalyzeDetailViewController.h in Headers */,
+				F7F7197116B96EBA82357BDDA9E1BBE0 /* CYUrlArchiveManager.h in Headers */,
+				31DDE8EBCC0976E06B06B53E70E631FA /* CYUrlBaseViewController.h in Headers */,
+				D2F47D2881DD914A0C4E187CB699F1DE /* CYUrlContentViewController.h in Headers */,
+				993613BC7A6FA7CC2FFF3B7A451DAACF /* CYUrlDBManager.h in Headers */,
+				15E76E29260DC2FE122683BE1AD132CC /* CYUrlSessionConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DEB008A71D9F2524455FD7888BC0B33 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8B909531E770281852158FD4C3D55C /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				6743FB44447AE36E60FF398673AD4863 /* Sources */,
+				B9704C841AECCB6C08D7844E8EF5E076 /* Frameworks */,
+				81B8DF7DCF1818BC34B279D762255861 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 110E1C46DE2F744E593929BE178E8F0D /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		936F869609A5FBA2663B760747FDF4A7 /* Pods-CYAnalyzeDataUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDDF0EE1309DBA3A03B3629D0A8D216 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploaderTests" */;
+			buildPhases = (
+				0CA7A468B5A066D6F32F7AD307DA0F50 /* Sources */,
+				AE1B79BD57D879BAB0BE26288627A036 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CYAnalyzeDataUploaderTests";
+			productName = "Pods-CYAnalyzeDataUploaderTests";
+			productReference = 60581F8D64D3D3A3F742447963BA152C /* libPods-CYAnalyzeDataUploaderTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2CE864561F27242D75CF79593522F2B /* Pods-CYAnalyzeDataUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74013C08791B6C1C5EF072F0D619BE79 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploader" */;
+			buildPhases = (
+				EA6AFB8AFD7CDDDC364AF50694BC6E22 /* Sources */,
+				369901643ADF7D1016E54302AEDF8945 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB88870E12A6E3663BB465D9C1814E1 /* PBXTargetDependency */,
+				3139E7731B080428A8E63ED945B22ECB /* PBXTargetDependency */,
+			);
+			name = "Pods-CYAnalyzeDataUploader";
+			productName = "Pods-CYAnalyzeDataUploader";
+			productReference = CAD2E5155BE2A00C9FA03EB798D38974 /* libPods-CYAnalyzeDataUploader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9C9B5B15D87ABBD6945D672D77A2850 /* CYGAnalyseTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3E8A0720F67BD4D708DA76CBD19707 /* Build configuration list for PBXNativeTarget "CYGAnalyseTool" */;
+			buildPhases = (
+				D527AF6A4438A7E2CB1A8882B2F5D7E8 /* Sources */,
+				1DB51C6B716B9D30AA99294F18905EFD /* Frameworks */,
+				9C7DAAA921071C4B49EDCB2D7C4432CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E489E2FEEE0D70342ADD2BEF14E1609 /* PBXTargetDependency */,
+			);
+			name = CYGAnalyseTool;
+			productName = CYGAnalyseTool;
+			productReference = CDC842BB932E6C56314125FBF73BE6BE /* libCYGAnalyseTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED4BF3F717261EF067E6B13C100E46F1 /* Pods-CYAnalyzeDataUploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139A84D2A2A38135CB8E28850F072397 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploaderUITests" */;
+			buildPhases = (
+				277E4D1BC4985F1B25511F7F75925143 /* Sources */,
+				2CE4B1580756F0DF66AE3443167A6B24 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CYAnalyzeDataUploaderUITests";
+			productName = "Pods-CYAnalyzeDataUploaderUITests";
+			productReference = 4000C7919C31146767C650D24399FBB1 /* libPods-CYAnalyzeDataUploaderUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 178B6B978B512D35FA31468E7E97C967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C9B5B15D87ABBD6945D672D77A2850 /* CYGAnalyseTool */,
+				8DEB008A71D9F2524455FD7888BC0B33 /* FMDB */,
+				B2CE864561F27242D75CF79593522F2B /* Pods-CYAnalyzeDataUploader */,
+				936F869609A5FBA2663B760747FDF4A7 /* Pods-CYAnalyzeDataUploaderTests */,
+				ED4BF3F717261EF067E6B13C100E46F1 /* Pods-CYAnalyzeDataUploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA7A468B5A066D6F32F7AD307DA0F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0042F412BCF42C6EF413178732DBA4CF /* Pods-CYAnalyzeDataUploaderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277E4D1BC4985F1B25511F7F75925143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9FC47BC38AE5ED112DC0FAA93469F /* Pods-CYAnalyzeDataUploaderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6743FB44447AE36E60FF398673AD4863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD01565E4C41E89D0C8731DCB008F00 /* FMDatabase.m in Sources */,
+				384CC7F3ABC30D9CEC140625A010455E /* FMDatabaseAdditions.m in Sources */,
+				9B656EACB5FDA9F5D93706C83853D3DE /* FMDatabasePool.m in Sources */,
+				FBD4A6AEF156B570F04FD1FFECB332F3 /* FMDatabaseQueue.m in Sources */,
+				528004D98CF20C194F5B5E6DE56EE32C /* FMDB-dummy.m in Sources */,
+				EB3A30425C99F9B13DFE101DB1A9FD82 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D527AF6A4438A7E2CB1A8882B2F5D7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096BEADBEFEC49806284E1C6EA7079EB /* CYGAnalyseTool-dummy.m in Sources */,
+				76D12A423E3466ACD68158FBDAF97676 /* CYNetworkFlow.m in Sources */,
+				DC066F81147005837262C7A224B4EAD6 /* CYUrlAnalyseDemux.m in Sources */,
+				5B363ED3B770BD541B8FF7F3A7C3FF4B /* CYUrlAnalyseListCell.m in Sources */,
+				08920999CB2FD5E8DFAFFA54301CCAAF /* CYUrlAnalyseListViewController.m in Sources */,
+				71404B612B4DB7B699B97333BDEDF07A /* CYUrlAnalyseManager.m in Sources */,
+				2F5D2ACFA71AF48A8FE2973AF3CB0657 /* CYUrlAnalyseModel.m in Sources */,
+				CDC04D3F4C29DD20A35EDAC1CA00A5C1 /* CYUrlAnalyseProtocol.m in Sources */,
+				FBEDAC8DF6E76B53F600FB9057BED32F /* CYUrlAnalyzeDetailViewController.m in Sources */,
+				AA6F0CC421508E875C1349C0D638612B /* CYUrlArchiveManager.m in Sources */,
+				DE2411F3E2B5AF95A0F57118A6BE5340 /* CYUrlBaseViewController.m in Sources */,
+				D12CAB46FFD146A3ECCADD81AAFD46FB /* CYUrlContentViewController.m in Sources */,
+				4BC41D948818CFFA3A13FF1AC8EAB22A /* CYUrlDBManager.m in Sources */,
+				2F0FFEEE21E7F51186962269F04AB27E /* CYUrlSessionConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6AFB8AFD7CDDDC364AF50694BC6E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BF376889E00CC9964AF0262A2D7162 /* Pods-CYAnalyzeDataUploader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3139E7731B080428A8E63ED945B22ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8DEB008A71D9F2524455FD7888BC0B33 /* FMDB */;
+			targetProxy = 1C8CC8A57375F2A4BDAD7BD62DABA2A3 /* PBXContainerItemProxy */;
+		};
+		5CB88870E12A6E3663BB465D9C1814E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYGAnalyseTool;
+			target = C9C9B5B15D87ABBD6945D672D77A2850 /* CYGAnalyseTool */;
+			targetProxy = 65E895D617FBDFE9D33349EAEE5EB7DF /* PBXContainerItemProxy */;
+		};
+		7E489E2FEEE0D70342ADD2BEF14E1609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8DEB008A71D9F2524455FD7888BC0B33 /* FMDB */;
+			targetProxy = 1E6018F36FB337CB04B7903DAB2FDF5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002CE70FDCFB2D023C2A258B82671E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86174F143E412430A49CA61819AAFA24 /* Pods-CYAnalyzeDataUploaderTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1F69810027D8789B47EE2914DDDECDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983E377F97F2CB0788E00DF2BDD45B7F /* CYGAnalyseTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYGAnalyseTool/CYGAnalyseTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF62506050B52D00676C1D1BC412FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F94CE9B37FFD09E0630B0D7886618AC /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687D09E7FEA263DCE1746752F5E1DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AB72493DE145A4A6085A7DDC607932 /* Pods-CYAnalyzeDataUploader.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C106F9671AE043C77A58E58325F75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0694F19E3A2B3F341B6EAE8CBA71D9CF /* Pods-CYAnalyzeDataUploaderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D8FF385A7AABF5F64D94116E7DFF67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983E377F97F2CB0788E00DF2BDD45B7F /* CYGAnalyseTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYGAnalyseTool/CYGAnalyseTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBF3DD6E4B4497E49727DF113F95AFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F94CE9B37FFD09E0630B0D7886618AC /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB08302AE25F171A2E21894E6CCB331F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293DD78C8B8F79FBEDC080223F4BEF0C /* Pods-CYAnalyzeDataUploaderTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECDD4AADF3B4656224D72BE7EC1C765E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F859689184A451DEA5B495789B08F9 /* Pods-CYAnalyzeDataUploader.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEEABD992AF418AA97B238F88F1E8C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311C61EF96929EAEB6B19B423FCF1647 /* Pods-CYAnalyzeDataUploaderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139A84D2A2A38135CB8E28850F072397 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C106F9671AE043C77A58E58325F75A /* Debug */,
+				FEEABD992AF418AA97B238F88F1E8C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDDF0EE1309DBA3A03B3629D0A8D216 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB08302AE25F171A2E21894E6CCB331F /* Debug */,
+				002CE70FDCFB2D023C2A258B82671E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74013C08791B6C1C5EF072F0D619BE79 /* Build configuration list for PBXNativeTarget "Pods-CYAnalyzeDataUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDD4AADF3B4656224D72BE7EC1C765E /* Debug */,
+				687D09E7FEA263DCE1746752F5E1DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3E8A0720F67BD4D708DA76CBD19707 /* Build configuration list for PBXNativeTarget "CYGAnalyseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8FF385A7AABF5F64D94116E7DFF67E /* Debug */,
+				1F69810027D8789B47EE2914DDDECDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8B909531E770281852158FD4C3D55C /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF62506050B52D00676C1D1BC412FE5 /* Debug */,
+				BBF3DD6E4B4497E49727DF113F95AFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
