@@ -1,1 +1,0 @@
-../../../CYGAnalyseTool/CYGAnalyseTool/Tools/UrlAnalyse/CYUrlAnalyseProtocol.h
