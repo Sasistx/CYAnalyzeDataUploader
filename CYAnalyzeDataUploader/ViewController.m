@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIWebView* webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:webView];
-    NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.apple.com/cn/"]];
+    NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]];
     [webView loadRequest:request];
     
     UIBarButtonItem* rightItem = [[UIBarButtonItem alloc] initWithTitle:@"network" style:UIBarButtonItemStylePlain target:self action:@selector(openAnalyse:)];
