@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Sasistx/CYAnalyzeDataUploader.git", :tag => s.version }
   s.source_files  =  "CYAnalyzeDataUploader/Classes/**/*.{h,m}"
   s.description  = "CYPhotoPicker is a uploader for CYGAnalyseTool's url analyze result or custom data."
-  s.dependency 'CYGAnalyseTool', '~> 1.2'
+  s.dependency 'CYGAnalyseTool', '~> 1.2.0'
 
 end
