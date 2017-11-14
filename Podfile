@@ -9,7 +9,7 @@ target 'CYAnalyzeDataUploader' do
   # use_frameworks!
 
   # Pods for CYAnalyzeDataUploader
-  pod 'CYGAnalyseTool', '1.1.9'
+  pod 'CYGAnalyseTool', '1.2'
 
   target 'CYAnalyzeDataUploaderTests' do
     inherit! :search_paths
