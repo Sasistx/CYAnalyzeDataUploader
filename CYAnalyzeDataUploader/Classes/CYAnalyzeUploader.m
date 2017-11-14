@@ -10,7 +10,7 @@
 #import "CYUrlDBManager.h"
 #import <pthread.h>
 
-static NSTimeInterval defaultInterval = 10 * 2;
+static NSTimeInterval defaultInterval = 60 * 3;
 static NSString* defaultAppKey = @"fe6350d50989d7bf6c7f121ddcaf10b4";
 static NSString* defaultAppId = @"1d3f40fa8e33b4ba1e3c4a4cb047d6e5";
 static NSString* defaultUrl = @"/1/classes/Url";
