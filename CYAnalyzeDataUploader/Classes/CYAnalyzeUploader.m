@@ -72,13 +72,15 @@ static CYAnalyzeUploader* sharedInstance = nil;
             rowNum = [rowId integerValue];
         }];
         
-        if ([self getProcessFromeFile] >= rowNum) {
+        NSInteger fileLatesRow = [self getProcessFromeFile];
+        
+        if (fileLatesRow >= rowNum) {
             
             return;
             
         } else {
             
-            [[CYUrlDBManager sharedManager] getDictListByRowId:[NSString stringWithFormat:@"%li", (long)rowNum] limit:50 isAsc:YES customDBKeys:[CYAnalyzeUploader urlDBKeys] callBack:^(NSArray<NSDictionary *> *dataList) {
+            [[CYUrlDBManager sharedManager] getDictListByRowId:[NSString stringWithFormat:@"%li", (long)fileLatesRow] limit:50 isAsc:YES customDBKeys:[CYAnalyzeUploader urlDBKeys] callBack:^(NSArray<NSDictionary *> *dataList) {
                 
                 if (dataList.count == 0) {
                     

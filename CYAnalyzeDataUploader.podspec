@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CYAnalyzeDataUploader"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.platform     = :ios, "8.0"
   s.summary      = "A uploader for CYGAnalyseTool's url analyze"
   s.description  = <<-DESC
